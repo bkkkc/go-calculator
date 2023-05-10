@@ -12,9 +12,7 @@ import (
 
 type TreeShapeListener struct {
 	*parser.BaseParserListener
-	//deep  int
 	id map[string]int
-	//tmpid string
 	stack   []int
 	lastErr error
 }
@@ -122,9 +120,9 @@ func main() {
 	// a=3
 	// a
 	// 4+7`
-	// modeInput := bytes.NewBuffer([]byte(tmpdata))
+	// input := bytes.NewBuffer([]byte(tmpdata))
 	console := bufio.NewReader(os.Stdin)
-	// console := bufio.NewReader(modeInput)
+	// console := bufio.NewReader(input)
 	for {
 		func() {
 			defer func() {
