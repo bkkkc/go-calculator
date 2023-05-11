@@ -7,7 +7,7 @@ import (
 	"strconv"
 
 	"github.com/antlr/antlr4/runtime/Go/antlr/v4"
-	"github.com/bkkkc/sqlparser/parser"
+	"github.com/bkkkc/go-calculator/parser"
 )
 
 type TreeShapeListener struct {
