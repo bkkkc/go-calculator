@@ -1,4 +1,4 @@
-module github.com/bkkkc/sqlparser
+module github.com/bkkkc/go-calculator
 
 go 1.20
 
